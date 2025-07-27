@@ -13,12 +13,12 @@ const CounterApp = () => {
     return (
         <>
 
-            <h1>{x.count}</h1>
+            <h1 data-testid="counter-value" >{x.count}</h1>
             <div>
-                <button onClick={() => {
+                <button data-testid="increment-btn" onClick={() => {
                     dispatch(increment())
                 }} >increment</button>
-                <button onClick={() => {
+                <button data-testid="decrement-btn" onClick={() => {
                     dispatch(decrement())
                 }} >decrement</button>
 
