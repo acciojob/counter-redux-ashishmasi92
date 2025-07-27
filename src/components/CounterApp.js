@@ -17,10 +17,10 @@ const CounterApp = () => {
             <div>
                 <button onClick={() => {
                     dispatch(increment())
-                }} >Increment</button>
+                }} >increment</button>
                 <button onClick={() => {
                     dispatch(decrement())
-                }} >Decrement</button>
+                }} >decrement</button>
 
             </div>
 
